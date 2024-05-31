@@ -1,0 +1,35 @@
+{
+    "name" : "KEBE Dashbaord",
+    "version" : "1.1",
+    "description" : "Oracle Application Express Plug-in for dashboard.",
+    "keywords" : ["Date", "Validator", "Valid", "Validate"],
+    "homepage" : "https://github.com/ekebe/kebe_dasboard",
+    "bugs" : {
+      "url" : "https://github.com/ekebe/kebe_dasboard",
+      "email" : "kebe1702@gmail.com"
+    },
+    "license" : "MIT",
+    "commercial" : "No",
+    "author" : {
+      "name" : "EL Hadji Abdoulaye KEBE",
+      "email" : "kebe1702@gmail",
+      "url" : "https://github.com/ekebe/kebe_dasboard"
+      
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/ekebe/kebe_dasboard"
+    },
+    "oracle" : {
+      "versions" : ["22.1.0.0","23.1.0.0"],
+      "apex" : {
+        "versions" : ["22.0","23.0"],
+        "plugin" : {
+          "internalName" : "KEBE_DASHBOARD",
+          "type" : "template component",
+          "demo" : "https://apex.oracle.com/pls/apex/r/baby_spa/demo-apps",
+          "previewImage" : "https://drive.google.com/file/d/1QHZugMftNdhRxl0mZJQo644IOL3es5ax/view?usp=sharing"
+        }
+      }
+    }
+  }
