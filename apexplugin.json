@@ -25,7 +25,7 @@
       "apex" : {
         "versions" : ["23.2.0", "23.1.0"],
         "plugin" : {
-          "internalName" : "KEBE_DASHBOARD",
+          "internalName" : "KB_DASHBOARD",
           "type" : "template component",
           "demo" : "https://apex.oracle.com/pls/apex/r/baby_spa/demo-apps",
           "previewImage" : "https://apex.oracle.com/pls/apex/r/baby_spa/175511/files/static/v17/kb_dashbord.png"
