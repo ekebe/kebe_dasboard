@@ -23,7 +23,7 @@
     "oracle" : {
       "versions" : ["19.1.0.0","23.1.0.0"],
       "apex" : {
-        "versions" : ["23.2.0", "23.1.0"],
+        "versions" : ["23.1", "23.2"],
         "plugin" : {
           "internalName" : "KB_DASHBOARD",
           "type" : "template component",
