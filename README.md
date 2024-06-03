@@ -1,4 +1,4 @@
-# kebe_dasboard (Template Component Plug-In)
+# kb_dasboard (Template Component Plug-In)
 This template component allows you to have an attractive customizable dashboard.
 ![Capture KB Dashboard](kb_dashbord.png)
 ## Installation
