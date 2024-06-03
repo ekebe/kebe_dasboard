@@ -33,7 +33,7 @@ prompt APPLICATION 126 - Demo Apps
 -- Application Export:
 --   Application:     126
 --   Name:            Demo Apps
---   Date and Time:   17:57 Friday May 31, 2024
+--   Date and Time:   09:09 Monday June 3, 2024
 --   Exported By:     ADMIN
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -68,8 +68,8 @@ wwv_flow_imp_shared.create_plugin(
 ' ',
 '           ',
 '          ',
-'          <div class="bg-clip-border mx-4 rounded-xl overflow-hidden bg-gradient-to-tr from-#IMAGE_COLOR#-600 to-#IMAGE_COLOR#-400 text-white shadow-#IMAGE_COLOR#-500/40 shadow-lg absolute -mt-4 grid h-16 w-16 place-items-center">',
-'            <img src="#IMAGE_URL#" class="w-6 h-6 text-white"> </img>',
+'          <div class="bg-clip-border mx-4 rounded-xl overflow-hidden bg-gradient-to-tr from-#HEADER_COLOR#-600 to-#HEADER_COLOR#-400 text-white shadow-#HEADER_COLOR#-500/40 shadow-lg absolute -mt-4 grid h-16 w-16 place-items-center">',
+'            <img src="#ICON#" class="w-6 h-6 text-white"> </img>',
 '          </div>',
 '          <div class="p-4 text-right">',
 '            <p class="block antialiased font-sans text-sm leading-normal font-normal text-blue-gray-600">#TITLE#</p>',
@@ -105,7 +105,7 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_sequence=>3
 ,p_display_sequence=>50
 ,p_static_id=>'PERCENT'
-,p_prompt=>'Percent'
+,p_prompt=>'PERCENT'
 ,p_attribute_type=>'SESSION STATE VALUE'
 ,p_is_required=>false
 ,p_escape_mode=>'HTML'
@@ -119,7 +119,7 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_sequence=>4
 ,p_display_sequence=>60
 ,p_static_id=>'PERCENT_COLOR'
-,p_prompt=>'Percent Color'
+,p_prompt=>'PERCENT COLOR'
 ,p_attribute_type=>'SESSION STATE VALUE'
 ,p_is_required=>false
 ,p_escape_mode=>'HTML'
@@ -133,7 +133,7 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_sequence=>6
 ,p_display_sequence=>70
 ,p_static_id=>'FOOTER'
-,p_prompt=>'Footer'
+,p_prompt=>'FOOTER'
 ,p_attribute_type=>'SESSION STATE VALUE'
 ,p_is_required=>false
 ,p_escape_mode=>'HTML'
@@ -146,8 +146,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>7
 ,p_display_sequence=>30
-,p_static_id=>'IMAGE_COLOR'
-,p_prompt=>'Image Color'
+,p_static_id=>'HEADER_COLOR'
+,p_prompt=>'HEADER COLOR'
 ,p_attribute_type=>'SESSION STATE VALUE'
 ,p_is_required=>false
 ,p_escape_mode=>'HTML'
@@ -160,8 +160,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>8
 ,p_display_sequence=>20
-,p_static_id=>'IMAGE_URL'
-,p_prompt=>'Image Url'
+,p_static_id=>'ICON'
+,p_prompt=>'ICON'
 ,p_attribute_type=>'SESSION STATE VALUE'
 ,p_is_required=>false
 ,p_escape_mode=>'HTML'
@@ -175,7 +175,7 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_sequence=>9
 ,p_display_sequence=>10
 ,p_static_id=>'TITLE'
-,p_prompt=>'Title'
+,p_prompt=>'TITLE'
 ,p_attribute_type=>'SESSION STATE VALUE'
 ,p_is_required=>false
 ,p_escape_mode=>'HTML'
@@ -189,7 +189,7 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_sequence=>10
 ,p_display_sequence=>40
 ,p_static_id=>'VALUE'
-,p_prompt=>'Value'
+,p_prompt=>'VALUE'
 ,p_attribute_type=>'SESSION STATE VALUE'
 ,p_is_required=>false
 ,p_escape_mode=>'HTML'
