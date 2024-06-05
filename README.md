@@ -54,7 +54,7 @@ FROM
 ```
 ## Attributes
 * **TITLE** The title of the element
-* **ICON** The value of the element
+* **ICON** The Icon of the element
 * **HEADER_COLOR** The background color of the header icon
 * **VALUE** The value of the element
 * **PERCENT** the percent of the element
